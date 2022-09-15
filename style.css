@@ -1,0 +1,28 @@
+body {
+  background: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+#clock {
+  width: max-content;
+  padding: 2px;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 1px;
+}
+
+#clock-item {
+  padding: 2px 5px;
+  background: black;
+  color: white;
+}
+
+span {
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#date {
+  color: #fff;
+}
